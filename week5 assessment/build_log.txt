@@ -1,0 +1,192 @@
+﻿npx : [33mYou are using 
+Node.js 20.15.0. Vite 
+requires Node.js version 
+20.19+ or 22.12+. Please 
+upgrade your Node.js 
+version.[39m
+At line:1 char:1
++ npx vite build *>&1 | 
+Out-File -Encoding utf8 
+build_log.txt
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (  
+  [33mYou are us...s ve   
+ rsion.[39m:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+file:///D:/dhanya/Document
+s/PERSONAL%20PORTFOLIO%20R
+EACT/node_modules/rolldown
+/dist/shared/binding-BV_UW
+DF3.mjs:507
+		if (loadErrors.length > 
+0) throw new 
+Error("Cannot find native 
+binding. npm has a bug 
+related to optional 
+dependencies (https://gith
+ub.com/npm/cli/issues/4828
+). Please try `npm i` 
+again after removing both 
+package-lock.json and 
+node_modules directory.", 
+{ cause: 
+loadErrors.reduce((err, 
+cur) => {
+		                        
+         ^
+
+Error: Cannot find native 
+binding. npm has a bug 
+related to optional 
+dependencies (https://gith
+ub.com/npm/cli/issues/4828
+). Please try `npm i` 
+again after removing both 
+package-lock.json and 
+node_modules directory.
+    at file:///D:/dhanya/D
+ocuments/PERSONAL%20PORTFO
+LIO%20REACT/node_modules/r
+olldown/dist/shared/bindin
+g-BV_UWDF3.mjs:507:36
+    at file:///D:/dhanya/D
+ocuments/PERSONAL%20PORTFO
+LIO%20REACT/node_modules/r
+olldown/dist/shared/bindin
+g-BV_UWDF3.mjs:9:48
+    ... 2 lines matching 
+cause stack trace ...
+    at async 
+ModuleLoader.import (node:
+internal/modules/esm/loade
+r:316:24)
+    at async 
+CAC.<anonymous> (file:///D
+:/dhanya/Documents/PERSONA
+L%20PORTFOLIO%20REACT/node
+_modules/vite/dist/node/cl
+i.js:764:28) {
+  [cause]: Error: Cannot 
+find module '@rolldown/bin
+ding-win32-x64-msvc'
+  Require stack:
+  - D:\dhanya\Documents\PE
+RSONAL PORTFOLIO REACT\nod
+e_modules\rolldown\dist\sh
+ared\binding-BV_UWDF3.mjs
+      at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1145:15)
+      ... 2 lines 
+matching cause stack 
+trace ...
+      at require (node:int
+ernal/modules/helpers:179:
+18)
+      at requireNative (fi
+le:///D:/dhanya/Documents/
+PERSONAL%20PORTFOLIO%20REA
+CT/node_modules/rolldown/d
+ist/shared/binding-BV_UWDF
+3.mjs:147:21)
+      at file:///D:/dhanya
+/Documents/PERSONAL%20PORT
+FOLIO%20REACT/node_modules
+/rolldown/dist/shared/bind
+ing-BV_UWDF3.mjs:475:18
+      at file:///D:/dhanya
+/Documents/PERSONAL%20PORT
+FOLIO%20REACT/node_modules
+/rolldown/dist/shared/bind
+ing-BV_UWDF3.mjs:9:48
+      at file:///D:/dhanya
+/Documents/PERSONAL%20PORT
+FOLIO%20REACT/node_modules
+/rolldown/dist/shared/pars
+e-nWsWXhOL.mjs:39:46
+      at ModuleJob.run (no
+de:internal/modules/esm/mo
+dule_job:222:25)
+      at async 
+ModuleLoader.import (node:
+internal/modules/esm/loade
+r:316:24) {
+    code: 
+'MODULE_NOT_FOUND',
+    requireStack: [
+      'D:\\dhanya\\Documen
+ts\\PERSONAL PORTFOLIO REA
+CT\\node_modules\\rolldown
+\\dist\\shared\\binding-BV
+_UWDF3.mjs'
+    ],
+    cause: Error: Cannot 
+find module './rolldown-bi
+nding.win32-x64-msvc.node'
+    Require stack:
+    - D:\dhanya\Documents\
+PERSONAL PORTFOLIO REACT\n
+ode_modules\rolldown\dist\
+shared\binding-BV_UWDF3.mj
+s
+        at 
+Module._resolveFilename (n
+ode:internal/modules/cjs/l
+oader:1145:15)
+        at Module._load (n
+ode:internal/modules/cjs/l
+oader:986:27)
+        at Module.require 
+(node:internal/modules/cjs
+/loader:1233:19)
+        at require (node:i
+nternal/modules/helpers:17
+9:18)
+        at requireNative (
+file:///D:/dhanya/Document
+s/PERSONAL%20PORTFOLIO%20R
+EACT/node_modules/rolldown
+/dist/shared/binding-BV_UW
+DF3.mjs:142:12)
+        at file:///D:/dhan
+ya/Documents/PERSONAL%20PO
+RTFOLIO%20REACT/node_modul
+es/rolldown/dist/shared/bi
+nding-BV_UWDF3.mjs:475:18
+        at file:///D:/dhan
+ya/Documents/PERSONAL%20PO
+RTFOLIO%20REACT/node_modul
+es/rolldown/dist/shared/bi
+nding-BV_UWDF3.mjs:9:48
+        at file:///D:/dhan
+ya/Documents/PERSONAL%20PO
+RTFOLIO%20REACT/node_modul
+es/rolldown/dist/shared/pa
+rse-nWsWXhOL.mjs:39:46
+        at ModuleJob.run (
+node:internal/modules/esm/
+module_job:222:25)
+        at async 
+ModuleLoader.import (node:
+internal/modules/esm/loade
+r:316:24) {
+      code: 
+'MODULE_NOT_FOUND',
+      requireStack: [
+        'D:\\dhanya\\Docum
+ents\\PERSONAL PORTFOLIO R
+EACT\\node_modules\\rolldo
+wn\\dist\\shared\\binding-
+BV_UWDF3.mjs'
+      ]
+    }
+  }
+}
+
+Node.js v20.15.0
